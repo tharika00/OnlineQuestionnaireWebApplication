@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/Style.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> JWA | WELCOME </title>
+</head>
+
+<body>
+
+  <section class="home-section">
+
+    <nav>
+
+      <div class="logo">
+        <img src="./images/white-logo.svg" alt="logo">
+      </div>
+      
+      <ul class="nav-links">
+    
+      <div class="menu">
+
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./Rules.php"> Rules </a></li>
+      </div>
+      </ul>
+
+      <div class="login"> 
+        <a href="./admin.php"> Login </a> 
+      </div>
+
+      
+    </nav>
+
+    <div class="home-content">
+
+    <div class="welcomebigbox">
+
+      <div class="texts">
+        <span class="welcometext"> WELCOME </span> <br> 
+        <span class="Secondtext" style="font-size: 40px;"> To The JWare Interview Questionnaire! </span> 
+      </div>
+
+      <div class="welcomepictures">           
+        <img src="./images/TabImage.png" alt="" width="600" height="500" class="tabimage"/>    
+        <img src="./images/JMW-White-logo.png" alt="Welcome" width="220" height="220" class="welcomelogo"/>
+        <div class="nextbutton">
+          <button type="button" id="apitudeNextButton"> Next </button>
+        </div>
+      </div> 
+    </div>
+  </div>  
+</section>
+
+    <script type="text/javascript">
+      document.getElementById("apitudeNextButton").onclick = function () {
+      location.href = "./Rules.php";
+      };
+</script> 
+</body>
+</html>
+
